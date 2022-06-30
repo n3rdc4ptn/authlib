@@ -1,0 +1,26 @@
+{
+  "name": "authlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.1",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "express-openid-connect": "^2.7.2"
+  }
+}
